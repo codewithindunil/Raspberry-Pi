@@ -46,4 +46,4 @@ try:
        time.sleep(2)
 
 except KeyboardInterrupt:
-     GPIO.cleanup()
+     GPIO.cleanup() //this will clean old inputs
